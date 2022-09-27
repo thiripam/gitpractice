@@ -23,3 +23,12 @@ jobs:
         java-version: 1.8
     - name: Build with Maven
       run: mvn clean test package 
+    - name: output-artifact
+
+      uses: actions/upload-artifact@v3
+
+      with:
+
+          name: gitpractice 
+
+          path: artifact upload 
