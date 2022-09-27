@@ -42,4 +42,4 @@ jobs:
 
           name: gitpractice 
 
-          path: artifact upload 
+          path: target 
