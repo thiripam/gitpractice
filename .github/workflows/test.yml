@@ -33,6 +33,7 @@ jobs:
 
     - name: Build with Maven
       run: mvn clean test package 
+           mkdir target && cp target/*.jar target
       
     - name: output-artifact
 
